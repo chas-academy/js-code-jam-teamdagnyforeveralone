@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(223, 223, 223);
+    background-image: url(img/background.jpg);
+    
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+    color: black;
+    margin: 100px 0 0 105px;
+    animation-name: colors;
+    animation-direction: normal;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    text-shadow: -3px 3px 8px rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    color: black;
+    margin: 50px 0 50px 105px;
+    text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.575);
+}
+
+img {
+    border: 3px  solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    border-radius: 30%;
+    margin: 10px;
+    background-color: white;
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.801);
+}
+
+@keyframes colors {
+    0% {color: black;}
+    10% {color:darkblue;}
+    20% {color: rgb(38, 194, 255);}
+    30% {color: rgb(0, 119, 99);}
+    40% {color:rgb(50, 255, 23);}
+    50% {color: yellow;}
+    60% {color: orange;}
+    70% {color: red;}
+    80% {color: rgb(255, 16, 136);}
+    90% {color: purple;}
+}
